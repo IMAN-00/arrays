@@ -7,7 +7,7 @@ public class array : MonoBehaviour
 
     void Start()
     {
-        
+        Debug.Log
     }
 
 
