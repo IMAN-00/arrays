@@ -10,7 +10,7 @@ public class array : MonoBehaviour
     void Start()
 
 {
-    String[] words =["Cat, Dog, Car, Pizza, Hat, Fish, Tree, Monkey, Ball, Bird"];
+    String[] words =["Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird"];
 
     System.Random rnd = new System.Random ();
     int i = 7;
