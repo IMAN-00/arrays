@@ -12,12 +12,12 @@ public class array : MonoBehaviour
 {
     String[] words =["Cat, Dog, Car, Pizza, Hat, Fish, Tree, Monkey, Ball, Bird"];
 
-    int random = rnd.Next(0,10);
+    System.Random rnd = new System.Random ();
     int i = 7;
     string Funny ="";
     while (i>=0)
     {
-       int random = rnd.Next(0,10);
+       int random = rnd.Next(0,9);
        Debug.Log (Funny = Funny +"");
        Debug.Log (words[random]);
        i ++;
