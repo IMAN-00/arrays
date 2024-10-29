@@ -18,13 +18,13 @@ public class array : MonoBehaviour
     while (i>=0)
     {
        int random = rnd.Next(0,9);
-       Debug.Log (Funny = Funny +"");
-       Debug.Log (words[random]);
+       Funny = Funny +" " + words[random];
        i ++;
-       Debug.Log ("Funny sentence");
+       
     }
-
+     Debug.Log ("Funny sentence:");
      
+     Debug.Log (Funny);
 
 
 
